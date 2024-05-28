@@ -4,6 +4,9 @@ import React from "react";
 // import { getAccessToken } from "utils/auth";
 
 const HomePage = ({ isOpen, message }: any) => {
+  console.log(
+    "added to check creating it , then i'll push it and then I reset --hard it and then push to remote"
+  );
   return (
     <div>
       <h1>Fetched Data</h1>
